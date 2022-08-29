@@ -1,0 +1,44 @@
+E:\C# and Angular Course\ReCapProject\ConsoleUI\bin\Debug\net6.0\ConsoleUI.exe
+E:\C# and Angular Course\ReCapProject\ConsoleUI\bin\Debug\net6.0\ConsoleUI.deps.json
+E:\C# and Angular Course\ReCapProject\ConsoleUI\bin\Debug\net6.0\ConsoleUI.runtimeconfig.json
+E:\C# and Angular Course\ReCapProject\ConsoleUI\bin\Debug\net6.0\ConsoleUI.dll
+E:\C# and Angular Course\ReCapProject\ConsoleUI\bin\Debug\net6.0\ConsoleUI.pdb
+E:\C# and Angular Course\ReCapProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.csproj.AssemblyReference.cache
+E:\C# and Angular Course\ReCapProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# and Angular Course\ReCapProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.AssemblyInfoInputs.cache
+E:\C# and Angular Course\ReCapProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.AssemblyInfo.cs
+E:\C# and Angular Course\ReCapProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.csproj.CoreCompileInputs.cache
+E:\C# and Angular Course\ReCapProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.dll
+E:\C# and Angular Course\ReCapProject\ConsoleUI\obj\Debug\net6.0\refint\ConsoleUI.dll
+E:\C# and Angular Course\ReCapProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.pdb
+E:\C# and Angular Course\ReCapProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.genruntimeconfig.cache
+E:\C# and Angular Course\ReCapProject\ConsoleUI\obj\Debug\net6.0\ref\ConsoleUI.dll
+E:\C# and Angular Course\ReCapProject\ConsoleUI\bin\Debug\net6.0\Business.dll
+E:\C# and Angular Course\ReCapProject\ConsoleUI\bin\Debug\net6.0\DataAccess.dll
+E:\C# and Angular Course\ReCapProject\ConsoleUI\bin\Debug\net6.0\Entities.dll
+E:\C# and Angular Course\ReCapProject\ConsoleUI\bin\Debug\net6.0\Business.pdb
+E:\C# and Angular Course\ReCapProject\ConsoleUI\bin\Debug\net6.0\DataAccess.pdb
+E:\C# and Angular Course\ReCapProject\ConsoleUI\bin\Debug\net6.0\Entities.pdb
+E:\C# and Angular Course\ReCapProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.csproj.CopyComplete
+E:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\bin\Debug\net6.0\ConsoleUI.exe
+E:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\bin\Debug\net6.0\ConsoleUI.deps.json
+E:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\bin\Debug\net6.0\ConsoleUI.runtimeconfig.json
+E:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\bin\Debug\net6.0\ConsoleUI.dll
+E:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\bin\Debug\net6.0\ConsoleUI.pdb
+E:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\bin\Debug\net6.0\Business.dll
+E:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\bin\Debug\net6.0\DataAccess.dll
+E:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\bin\Debug\net6.0\Entities.dll
+E:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\bin\Debug\net6.0\Business.pdb
+E:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\bin\Debug\net6.0\DataAccess.pdb
+E:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\bin\Debug\net6.0\Entities.pdb
+E:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.csproj.AssemblyReference.cache
+E:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.GeneratedMSBuildEditorConfig.editorconfig
+E:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.AssemblyInfoInputs.cache
+E:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.AssemblyInfo.cs
+E:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.csproj.CoreCompileInputs.cache
+E:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.csproj.CopyComplete
+E:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.dll
+E:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\obj\Debug\net6.0\refint\ConsoleUI.dll
+E:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.pdb
+E:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.genruntimeconfig.cache
+E:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\obj\Debug\net6.0\ref\ConsoleUI.dll

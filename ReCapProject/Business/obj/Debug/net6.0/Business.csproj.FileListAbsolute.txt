@@ -1,0 +1,34 @@
+E:\C# and Angular Course\ReCapProject\Business\bin\Debug\net6.0\Business.deps.json
+E:\C# and Angular Course\ReCapProject\Business\bin\Debug\net6.0\Business.dll
+E:\C# and Angular Course\ReCapProject\Business\bin\Debug\net6.0\Business.pdb
+E:\C# and Angular Course\ReCapProject\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+E:\C# and Angular Course\ReCapProject\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# and Angular Course\ReCapProject\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+E:\C# and Angular Course\ReCapProject\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+E:\C# and Angular Course\ReCapProject\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+E:\C# and Angular Course\ReCapProject\Business\obj\Debug\net6.0\Business.dll
+E:\C# and Angular Course\ReCapProject\Business\obj\Debug\net6.0\refint\Business.dll
+E:\C# and Angular Course\ReCapProject\Business\obj\Debug\net6.0\Business.pdb
+E:\C# and Angular Course\ReCapProject\Business\obj\Debug\net6.0\ref\Business.dll
+E:\C# and Angular Course\ReCapProject\Business\bin\Debug\net6.0\DataAccess.dll
+E:\C# and Angular Course\ReCapProject\Business\bin\Debug\net6.0\Entities.dll
+E:\C# and Angular Course\ReCapProject\Business\bin\Debug\net6.0\DataAccess.pdb
+E:\C# and Angular Course\ReCapProject\Business\bin\Debug\net6.0\Entities.pdb
+E:\C# and Angular Course\ReCapProject\Business\obj\Debug\net6.0\Business.csproj.CopyComplete
+E:\Kodlama.ioReCapProject\ReCapProject\Business\bin\Debug\net6.0\Business.deps.json
+E:\Kodlama.ioReCapProject\ReCapProject\Business\bin\Debug\net6.0\Business.dll
+E:\Kodlama.ioReCapProject\ReCapProject\Business\bin\Debug\net6.0\Business.pdb
+E:\Kodlama.ioReCapProject\ReCapProject\Business\bin\Debug\net6.0\DataAccess.dll
+E:\Kodlama.ioReCapProject\ReCapProject\Business\bin\Debug\net6.0\Entities.dll
+E:\Kodlama.ioReCapProject\ReCapProject\Business\bin\Debug\net6.0\DataAccess.pdb
+E:\Kodlama.ioReCapProject\ReCapProject\Business\bin\Debug\net6.0\Entities.pdb
+E:\Kodlama.ioReCapProject\ReCapProject\Business\obj\Debug\net6.0\Business.csproj.AssemblyReference.cache
+E:\Kodlama.ioReCapProject\ReCapProject\Business\obj\Debug\net6.0\Business.GeneratedMSBuildEditorConfig.editorconfig
+E:\Kodlama.ioReCapProject\ReCapProject\Business\obj\Debug\net6.0\Business.AssemblyInfoInputs.cache
+E:\Kodlama.ioReCapProject\ReCapProject\Business\obj\Debug\net6.0\Business.AssemblyInfo.cs
+E:\Kodlama.ioReCapProject\ReCapProject\Business\obj\Debug\net6.0\Business.csproj.CoreCompileInputs.cache
+E:\Kodlama.ioReCapProject\ReCapProject\Business\obj\Debug\net6.0\Business.csproj.CopyComplete
+E:\Kodlama.ioReCapProject\ReCapProject\Business\obj\Debug\net6.0\Business.dll
+E:\Kodlama.ioReCapProject\ReCapProject\Business\obj\Debug\net6.0\refint\Business.dll
+E:\Kodlama.ioReCapProject\ReCapProject\Business\obj\Debug\net6.0\Business.pdb
+E:\Kodlama.ioReCapProject\ReCapProject\Business\obj\Debug\net6.0\ref\Business.dll

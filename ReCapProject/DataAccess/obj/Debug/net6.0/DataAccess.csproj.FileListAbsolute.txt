@@ -1,0 +1,30 @@
+E:\C# and Angular Course\ReCapProject\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+E:\C# and Angular Course\ReCapProject\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# and Angular Course\ReCapProject\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+E:\C# and Angular Course\ReCapProject\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+E:\C# and Angular Course\ReCapProject\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+E:\C# and Angular Course\ReCapProject\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+E:\C# and Angular Course\ReCapProject\DataAccess\bin\Debug\net6.0\DataAccess.dll
+E:\C# and Angular Course\ReCapProject\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+E:\C# and Angular Course\ReCapProject\DataAccess\bin\Debug\net6.0\Entities.dll
+E:\C# and Angular Course\ReCapProject\DataAccess\bin\Debug\net6.0\Entities.pdb
+E:\C# and Angular Course\ReCapProject\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+E:\C# and Angular Course\ReCapProject\DataAccess\obj\Debug\net6.0\DataAccess.dll
+E:\C# and Angular Course\ReCapProject\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+E:\C# and Angular Course\ReCapProject\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+E:\C# and Angular Course\ReCapProject\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+E:\Kodlama.ioReCapProject\ReCapProject\DataAccess\bin\Debug\net6.0\DataAccess.deps.json
+E:\Kodlama.ioReCapProject\ReCapProject\DataAccess\bin\Debug\net6.0\DataAccess.dll
+E:\Kodlama.ioReCapProject\ReCapProject\DataAccess\bin\Debug\net6.0\DataAccess.pdb
+E:\Kodlama.ioReCapProject\ReCapProject\DataAccess\bin\Debug\net6.0\Entities.dll
+E:\Kodlama.ioReCapProject\ReCapProject\DataAccess\bin\Debug\net6.0\Entities.pdb
+E:\Kodlama.ioReCapProject\ReCapProject\DataAccess\obj\Debug\net6.0\DataAccess.csproj.AssemblyReference.cache
+E:\Kodlama.ioReCapProject\ReCapProject\DataAccess\obj\Debug\net6.0\DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\Kodlama.ioReCapProject\ReCapProject\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfoInputs.cache
+E:\Kodlama.ioReCapProject\ReCapProject\DataAccess\obj\Debug\net6.0\DataAccess.AssemblyInfo.cs
+E:\Kodlama.ioReCapProject\ReCapProject\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CoreCompileInputs.cache
+E:\Kodlama.ioReCapProject\ReCapProject\DataAccess\obj\Debug\net6.0\DataAccess.csproj.CopyComplete
+E:\Kodlama.ioReCapProject\ReCapProject\DataAccess\obj\Debug\net6.0\DataAccess.dll
+E:\Kodlama.ioReCapProject\ReCapProject\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
+E:\Kodlama.ioReCapProject\ReCapProject\DataAccess\obj\Debug\net6.0\DataAccess.pdb
+E:\Kodlama.ioReCapProject\ReCapProject\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
