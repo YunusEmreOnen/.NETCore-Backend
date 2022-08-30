@@ -10,27 +10,27 @@ namespace ConsoleUI
         {
             CarManager carManager = new CarManager(new InMemoryCarDal());
             
-            carManager.Add(new Car { Id = 5, BrandId = 4, ColorId = 3, DailyPrice = 200000, ModelYear = 2010,Description= "FOCUS" });
-            foreach (Car item in carManager.GetAll())
+            carManager.Add(new Car { CarId = 5, BrandId = 4, ColorId = 3, DailyPrice = 200000, ModelYear = 2010,Description= "FOCUS" });
+            foreach (var item in carManager.GetAll())
             {
-                Console.WriteLine(item.Description);
+                Console.WriteLine(item);
             }
             Console.WriteLine("--------------");
             
             Console.WriteLine(carManager.GetById(3).Description);
             Console.WriteLine("--------------");
 
-            carManager.Update(new Car { Id = 5, BrandId = 4, ColorId = 3, DailyPrice = 1000000, ModelYear = 2020, Description = "Tesla" });
-            foreach (Car item in carManager.GetAll())
+            carManager.Update(new Car { CarId = 5, BrandId = 4, ColorId = 3, DailyPrice = 1000000, ModelYear = 2020, Description = "Fiesta" });
+            foreach (var item in carManager.GetAll())
             {
-                Console.WriteLine(item.Description);
+                Console.WriteLine(item);
             }
             Console.WriteLine("--------------");
            
-            carManager.Delete(new Car { Id = 5, BrandId = 4 });
-            foreach (Car item in carManager.GetAll())
+            carManager.Delete(new Car { CarId = 5, BrandId = 4 });
+            foreach (var item in carManager.GetAll())
             {
-                Console.WriteLine(item.Description);
+                Console.WriteLine(item);
             }
             Console.WriteLine("--------------");
 

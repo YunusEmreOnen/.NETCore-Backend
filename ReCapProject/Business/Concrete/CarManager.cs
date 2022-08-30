@@ -29,7 +29,7 @@ namespace Business.Concrete
             _carDal.Delete(car);
         }
 
-        public List<Car> GetAll()
+        public List<CarDto> GetAll()
         {
             //Checks to be made in the Business Layer
             return _carDal.GetAll();
