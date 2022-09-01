@@ -20,7 +20,19 @@ namespace Business.Concrete
         public void Add(Car car)
         {
             //Checks to be made in the Business Layer
-            _carDal.Add(car);
+            if(car.Description_.Length<=1)
+            {
+                throw new Exception("Araba modeli en az 2 harf içermelidir.");
+            }
+            else if (car.DailyPrice<=0)
+            {
+                throw new Exception("Arabanın fiyatı 0 dan büyük olmalıdır.");
+            }
+            else
+            {
+                _carDal.Add(car);
+            }
+            
         }
 
         public void Delete(Car car)
@@ -29,16 +41,20 @@ namespace Business.Concrete
             _carDal.Delete(car);
         }
 
-        public List<CarDto> GetAll()
+        public List<Car> GetAll()
         {
             //Checks to be made in the Business Layer
             return _carDal.GetAll();
         }
 
-        public Car GetById(int Id)
+        public List<Car> GetCarsByBrandId(int id)
         {
-            //Checks to be made in the Business Layer
-            return _carDal.GetById(Id);
+            return _carDal.GetAll(x=>x.BrandId == id);
+        }
+
+        public List<Car> GetCarsByColorId(int id)
+        {
+            return _carDal.GetAll(x => x.ColorId == id);
         }
 
         public void Update(Car car)
