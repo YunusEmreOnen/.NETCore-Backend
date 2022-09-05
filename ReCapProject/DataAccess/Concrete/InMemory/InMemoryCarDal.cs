@@ -1,5 +1,6 @@
 ﻿using DataAccess.Abstract;
 using Entities.Concrete;
+using Entities.DTOs;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -64,19 +65,6 @@ namespace DataAccess.Concrete.InMemory
             throw new NotImplementedException();
         }
 
-        public List<CarDto> GetAll()
-        {
-            var resault = from p in _cars
-                          join b in _brands
-                        on p.BrandId equals b.Id
-                          join c in _colors on p.ColorId equals c.Id
-                          select new CarDto{ CarId = p.Id, BrandName = b.BrandName,ColorName=c.ColorName,DailyPrice=p.DailyPrice,
-                          ModelYear=p.ModelYear,Description=p.Description_};
-
-
-           return resault.ToList();
-        }
-
         public List<Car> GetAll(Expression<Func<Car, bool>>? filter = null)
         {
             throw new NotImplementedException();
@@ -85,6 +73,11 @@ namespace DataAccess.Concrete.InMemory
         public Car GetById(int Id)
         {
             return _cars.FirstOrDefault(x=>x.Id==Id);
+        }
+
+        public List<CarDetailDto> GetCarDetails()
+        {
+            throw new NotImplementedException();
         }
 
         public void Update(Car car)

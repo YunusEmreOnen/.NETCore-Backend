@@ -22,3 +22,6 @@ E:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.dll
 E:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\refint\Entities.dll
 E:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.pdb
 E:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\ref\Entities.dll
+E:\Kodlama.ioReCapProject\ReCapProject\Entities\bin\Debug\net6.0\Core.dll
+E:\Kodlama.ioReCapProject\ReCapProject\Entities\bin\Debug\net6.0\Core.pdb
+E:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.csproj.CopyComplete

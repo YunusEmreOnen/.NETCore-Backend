@@ -1,13 +1,13 @@
-﻿using Entities.Abstract;
+﻿using Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entities.Concrete
+namespace Entities.DTOs
 {
-    public class CarDto:IEntity
+    public class CarDetailDto :IDto
     {
         public int CarId { get; set; }
         public string BrandName { get; set; }

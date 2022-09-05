@@ -28,3 +28,5 @@ E:\Kodlama.ioReCapProject\ReCapProject\DataAccess\obj\Debug\net6.0\DataAccess.dl
 E:\Kodlama.ioReCapProject\ReCapProject\DataAccess\obj\Debug\net6.0\refint\DataAccess.dll
 E:\Kodlama.ioReCapProject\ReCapProject\DataAccess\obj\Debug\net6.0\DataAccess.pdb
 E:\Kodlama.ioReCapProject\ReCapProject\DataAccess\obj\Debug\net6.0\ref\DataAccess.dll
+E:\Kodlama.ioReCapProject\ReCapProject\DataAccess\bin\Debug\net6.0\Core.dll
+E:\Kodlama.ioReCapProject\ReCapProject\DataAccess\bin\Debug\net6.0\Core.pdb
