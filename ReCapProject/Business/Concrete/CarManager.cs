@@ -1,4 +1,6 @@
 ﻿using Business.Abstract;
+using Business.Constants;
+using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
@@ -18,60 +20,59 @@ namespace Business.Concrete
             _carDal = carDal;
         }
 
-        public void Add(Car car)
+        public IResult Add(Car car)
         {
             //Checks to be made in the Business Layer
-            if(car.Description_.Length<=1)
+            if(car.Description_.Length<2)
             {
-                throw new Exception("Araba modeli en az 2 harf içermelidir.");
+                return new ErrorResult(Messages.CarNameInvalid);
             }
             else if (car.DailyPrice<=0)
             {
-                throw new Exception("Arabanın fiyatı 0 dan büyük olmalıdır.");
+                return new ErrorResult(Messages.CarsDailyPriceInvalid);
             }
-            else
-            {
-                _carDal.Add(car);
-            }
-            
+            _carDal.Add(car);
+            return new SuccessResult(Messages.CarAdded);
         }
 
-        public List<CarDetailDto> GetCarDetails()
+        public IDataResult<List<CarDetailDto>> GetCarDetails()
         {
-            return _carDal.GetCarDetails();
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(),Messages.CarsListed);
         }
 
-        public void Delete(Car car)
+        public IResult Delete(Car car)
         {
             //Checks to be made in the Business Layer
             _carDal.Delete(car);
+            return new SuccessResult(Messages.CarDeleted);
         }
 
-        public List<Car> GetAll()
+        public IDataResult<List<Car>> GetAll()
         {
             //Checks to be made in the Business Layer
-            return _carDal.GetAll();
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll());
         }
 
-        public Car GetById(int CarId)
+        public IDataResult<Car> GetById(int CarId)
         {
-            return _carDal.Get(x => x.Id == CarId);
+            return new SuccessDataResult<Car>(_carDal.Get(x => x.Id == CarId));
         }
 
-        public List<Car> GetCarsByBrandId(int BrandId)
+        public IDataResult<List<Car>> GetCarsByBrandId(int BrandId)
         {
-            return _carDal.GetAll(x=>x.BrandId == BrandId);
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(x => x.BrandId == BrandId));
         }
 
-        public List<Car> GetCarsByColorId(int ColorId)
+        public IDataResult<List<Car>> GetCarsByColorId(int ColorId)
         {
-            return _carDal.GetAll(x => x.ColorId == ColorId);
+            return new SuccessDataResult<List<Car>>(_carDal.GetAll(x => x.ColorId == ColorId));
         }
 
-        public void Update(Car car)
+        public IResult Update(Car car)
         {
             //Checks to be made in the Business Layer
             _carDal.Update(car);
+            return new SuccessResult(Messages.CarUpdate);
         }
     }
 }
