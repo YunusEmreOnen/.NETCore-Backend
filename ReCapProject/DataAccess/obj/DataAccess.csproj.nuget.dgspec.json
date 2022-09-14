@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Kodlama.ioReCapProject\\ReCapProject\\DataAccess\\DataAccess.csproj": {}
+    "D:\\Kodlama.ioReCapProject\\ReCapProject\\DataAccess\\DataAccess.csproj": {}
   },
   "projects": {
-    "E:\\Kodlama.ioReCapProject\\ReCapProject\\Core\\Core.csproj": {
+    "D:\\Kodlama.ioReCapProject\\ReCapProject\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Kodlama.ioReCapProject\\ReCapProject\\Core\\Core.csproj",
+        "projectUniqueName": "D:\\Kodlama.ioReCapProject\\ReCapProject\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "E:\\Kodlama.ioReCapProject\\ReCapProject\\Core\\Core.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "E:\\Kodlama.ioReCapProject\\ReCapProject\\Core\\obj\\",
+        "projectPath": "D:\\Kodlama.ioReCapProject\\ReCapProject\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\ynson\\.nuget\\packages\\",
+        "outputPath": "D:\\Kodlama.ioReCapProject\\ReCapProject\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ynson\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -55,7 +56,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -64,24 +66,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Kodlama.ioReCapProject\\ReCapProject\\DataAccess\\DataAccess.csproj": {
+    "D:\\Kodlama.ioReCapProject\\ReCapProject\\DataAccess\\DataAccess.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Kodlama.ioReCapProject\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "projectUniqueName": "D:\\Kodlama.ioReCapProject\\ReCapProject\\DataAccess\\DataAccess.csproj",
         "projectName": "DataAccess",
-        "projectPath": "E:\\Kodlama.ioReCapProject\\ReCapProject\\DataAccess\\DataAccess.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "E:\\Kodlama.ioReCapProject\\ReCapProject\\DataAccess\\obj\\",
+        "projectPath": "D:\\Kodlama.ioReCapProject\\ReCapProject\\DataAccess\\DataAccess.csproj",
+        "packagesPath": "C:\\Users\\ynson\\.nuget\\packages\\",
+        "outputPath": "D:\\Kodlama.ioReCapProject\\ReCapProject\\DataAccess\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ynson\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -90,17 +92,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Kodlama.ioReCapProject\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "E:\\Kodlama.ioReCapProject\\ReCapProject\\Core\\Core.csproj"
+              "D:\\Kodlama.ioReCapProject\\ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "D:\\Kodlama.ioReCapProject\\ReCapProject\\Core\\Core.csproj"
               },
-              "E:\\Kodlama.ioReCapProject\\ReCapProject\\Entities\\Entities.csproj": {
-                "projectPath": "E:\\Kodlama.ioReCapProject\\ReCapProject\\Entities\\Entities.csproj"
+              "D:\\Kodlama.ioReCapProject\\ReCapProject\\Entities\\Entities.csproj": {
+                "projectPath": "D:\\Kodlama.ioReCapProject\\ReCapProject\\Entities\\Entities.csproj"
               }
             }
           }
@@ -126,7 +129,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -135,24 +139,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\Kodlama.ioReCapProject\\ReCapProject\\Entities\\Entities.csproj": {
+    "D:\\Kodlama.ioReCapProject\\ReCapProject\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Kodlama.ioReCapProject\\ReCapProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "D:\\Kodlama.ioReCapProject\\ReCapProject\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "E:\\Kodlama.ioReCapProject\\ReCapProject\\Entities\\Entities.csproj",
-        "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "E:\\Kodlama.ioReCapProject\\ReCapProject\\Entities\\obj\\",
+        "projectPath": "D:\\Kodlama.ioReCapProject\\ReCapProject\\Entities\\Entities.csproj",
+        "packagesPath": "C:\\Users\\ynson\\.nuget\\packages\\",
+        "outputPath": "D:\\Kodlama.ioReCapProject\\ReCapProject\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ynson\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -161,14 +165,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Kodlama.ioReCapProject\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "E:\\Kodlama.ioReCapProject\\ReCapProject\\Core\\Core.csproj"
+              "D:\\Kodlama.ioReCapProject\\ReCapProject\\Core\\Core.csproj": {
+                "projectPath": "D:\\Kodlama.ioReCapProject\\ReCapProject\\Core\\Core.csproj"
               }
             }
           }
@@ -188,7 +193,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -197,7 +203,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
