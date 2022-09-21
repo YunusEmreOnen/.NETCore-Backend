@@ -1,9 +1,13 @@
 ﻿using Business.Abstract;
 using Business.Constants;
+using Business.ValidationRules.FluentValidation;
+using Core.Aspects.Autofac.Validation;
+using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
 using Entities.DTOs;
+using FluentValidation;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,24 +24,19 @@ namespace Business.Concrete
             _carDal = carDal;
         }
 
+        [ValidationAspect(typeof(CarValidator))]
         public IResult Add(Car car)
         {
-            //Checks to be made in the Business Layer
-            if(car.Description_.Length<2)
-            {
-                return new ErrorResult(Messages.CarNameInvalid);
-            }
-            else if (car.DailyPrice<=0)
-            {
-                return new ErrorResult(Messages.CarsDailyPriceInvalid);
-            }
+            
+
             _carDal.Add(car);
+
             return new SuccessResult(Messages.CarAdded);
         }
 
         public IDataResult<List<CarDetailDto>> GetCarDetails()
         {
-            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(),Messages.CarsListed);
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(), Messages.CarsListed);
         }
 
         public IResult Delete(Car car)
