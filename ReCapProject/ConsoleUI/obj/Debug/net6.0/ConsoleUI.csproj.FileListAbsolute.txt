@@ -153,3 +153,8 @@ D:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\bin\Debug\net6.0\Autofac.Extras
 D:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\bin\Debug\net6.0\Castle.Core.dll
 D:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\bin\Debug\net6.0\FluentValidation.dll
 D:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\bin\Debug\net6.0\Autofac.Extensions.DependencyInjection.dll
+D:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\bin\Debug\net6.0\AspectCore.Abstractions.dll
+D:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\bin\Debug\net6.0\AspectCore.Core.dll
+D:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\bin\Debug\net6.0\AspectCore.Extensions.Reflection.dll
+D:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Features.dll
+D:\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\bin\Debug\net6.0\System.IO.Pipelines.dll

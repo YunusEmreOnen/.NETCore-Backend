@@ -28,6 +28,7 @@ namespace Business.Constants
         public static string CarNameInvalid = "Araç ismi geçersiz.";
         public static string CarsDailyPriceInvalid = "Geçrsiz bir Araç fiyatı girildi.";
         public static string CarsListed = "Araçlar listelendi";
-
+        public static string CarImagelimitExceeded = "Araç resim sayısı sınırı aşıldı.";
+        public static string GetDefaultCarImage = "Default araç resmi gönderildi.";
     }
 }
