@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i7pUo+O/7iMZJTR+/qt/34HygEnIcFZ/ZFIc1crAj8PcHqU3kUe+5uuY6Kt+R8IGh4AuxLLpRMtIHAqTyIwJ1g==",
+  "dgSpecHash": "GfKfDZHJaBZ7QPLdkSDtNTRpK7fOHvx55R/rZsYdjyr0x2WgVWeWy504o//MLAZrUCbElfEQCR26LKCmwv/Isg==",
   "success": true,
-  "projectFilePath": "D:\\Kodlama.ioReCapProject\\ReCapProject\\Business\\Business.csproj",
+  "projectFilePath": "C:\\C#\\Kodlama.ioReCapProject\\ReCapProject\\Business\\Business.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ynson\\.nuget\\packages\\aspectcore.abstractions\\2.2.0\\aspectcore.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ynson\\.nuget\\packages\\aspectcore.core\\2.2.0\\aspectcore.core.2.2.0.nupkg.sha512",

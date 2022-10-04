@@ -4,7 +4,7 @@ using Business.ValidationRules.FluentValidation;
 using Core.Aspects.Autofac.Validation;
 using Core.CrossCuttingConcerns.Validation;
 using Core.Utilities.Business;
-using Core.Utilities.FileService;
+using Core.Utilities.Storage;
 using Core.Utilities.Results;
 using DataAccess.Abstract;
 using Entities.Concrete;
@@ -28,29 +28,35 @@ namespace Business.Concrete
         }
 
         [ValidationAspect(typeof(CarImageValidator))]
-        public IResult Add(IFormFile file, CarImage carImage)
+        public IResult Add(IFormFile file, int carId)
         {
-            IResult result = BusinessRules.Run(CheckIfCarImageOfLimitExceed(carImage.CarId));
-            if (result != null)
+            IResult result = BusinessRules.Run(CheckIfCarImageOfLimitExceed(carId));
+            if (result == null)
             {
-                return result;
-            }
+                var fileStorageResult = FileStorage.Upload(file, @"C:\C#\Kodlama.ioReCapProject\ReCapProject\WebAPI\Content\Images\");
+                if (fileStorageResult.Success)
+                {
+                    CarImage carImage = new CarImage()
+                    {
+                        CarId = carId,
+                        ImagePath = fileStorageResult.Data.FilePath,
+                        Date_ = fileStorageResult.Data.FileLoadTime
+                    };
 
-            var storageServiceResult = StorageService.Upload(file, @"D:\Kodlama.ioReCapProject\ReCapProject\WebAPI\Content\Images\");
-            if (storageServiceResult.Success)
-            {
-                carImage.ImagePath = storageServiceResult.Data.FilePath;
-                carImage.Date_ = storageServiceResult.Data.FileLoadTime;
-                _carImagedal.Add(carImage);
-                return new SuccessResult();
+                    _carImagedal.Add(carImage);
+                    return new SuccessResult();
+                }
+                return new ErrorResult(fileStorageResult.Message);
             }
-            return new ErrorResult();
+            return result;
+
+            
 
         }
 
         public IResult Delete(CarImage carImage)
         {
-            var result = StorageService.Delete(carImage.ImagePath);
+            var result = FileStorage.Delete(carImage.ImagePath);
             if (result.Success)
             {
                 _carImagedal.Delete(carImage);
@@ -70,11 +76,18 @@ namespace Business.Concrete
             return new SuccessDataResult<CarImage>(_carImagedal.Get(x => x.Id == id));
         }
 
-        public IResult Update(IFormFile file, CarImage carImage)
+        public IResult Update(IFormFile file, string imagePath)
         {
-            var result = StorageService.Update(file, carImage.ImagePath);
-            _carImagedal.Update(carImage);
-            return new SuccessResult();
+            var carImage = _carImagedal.Get(i=>i.ImagePath==imagePath);
+            if(carImage!=null)
+            {
+                var storageResult = FileStorage.Update(file, imagePath);
+                
+                carImage.Date_ = storageResult.Data.FileLoadTime;
+                _carImagedal.Update(carImage);
+                return new SuccessResult();
+            }
+            return new ErrorResult();
         }
 
         private IResult CheckIfCarImageOfLimitExceed(int carId)
@@ -101,8 +114,8 @@ namespace Business.Concrete
                 return new SuccessDataResult<List<string>>(carPaths);
             }
             carPaths = new List<string>();
-            carPaths.Add(@"D:\Kodlama.ioReCapProject\ReCapProject\WebAPI\Content\Images\defaultImage.jpg");
-            return new ErrorDataResult<List<string>>(carPaths,Messages.GetDefaultCarImage);
+            carPaths.Add(@"C:\C#\Kodlama.ioReCapProject\ReCapProject\WebAPI\Content\Images\defaultImage.jpg");
+            return new ErrorDataResult<List<string>>(carPaths, Messages.GetDefaultCarImage);
 
         }
 

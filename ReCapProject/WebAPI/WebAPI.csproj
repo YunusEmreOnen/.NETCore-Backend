@@ -19,7 +19,6 @@
 
   <ItemGroup>
     <Folder Include="Content\" />
-    <Folder Include="Content\Images\" />
   </ItemGroup>
 
 </Project>

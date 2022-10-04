@@ -2,6 +2,7 @@
 using Core.Entities;
 using Entities.Concrete;
 using Microsoft.AspNetCore.Mvc;
+using System.Xml.Linq;
 
 namespace WebAPI.Controllers
 {
@@ -28,9 +29,9 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("add")]
-        public IActionResult Add(IFormFile file, CarImage carImage)
+        public IActionResult Add([FromForm] IFormFile file,[FromForm] CarImage carImage)
         {
-            var result = _imageService.Add(file, carImage);
+            var result = _imageService.Add(file, carImage.CarId);
             if (result.Success)
             {
                 return Ok(result);
@@ -50,9 +51,9 @@ namespace WebAPI.Controllers
         }
 
         [HttpPost("update")]
-        public IActionResult Update(IFormFile file, CarImage carImage)
+        public IActionResult Update([FromForm] IFormFile file, [FromForm] CarImage carImage)
         {
-            var result = _imageService.Update(file, carImage);
+            var result = _imageService.Update(file, carImage.ImagePath);
             if (result.Success)
             {
                 return Ok(result);
@@ -68,7 +69,7 @@ namespace WebAPI.Controllers
             {
                 return Ok(result);
             }
-            return Ok(result);
+            return Ok(result.Data[0]);
             
         }
     }

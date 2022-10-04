@@ -5,9 +5,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Core.Utilities.FileService
+namespace Core.Utilities.Storage
 {
-    public class FileDTO: IDto
+    public class FileStorageObject
+
     {
         public string FilePath { get; set; }
         public DateTime FileLoadTime { get; set; }
