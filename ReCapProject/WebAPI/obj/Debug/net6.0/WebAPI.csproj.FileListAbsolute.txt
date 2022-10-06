@@ -138,3 +138,4 @@ C:\C#\Kodlama.ioReCapProject\ReCapProject\WebAPI\obj\Debug\net6.0\refint\WebAPI.
 C:\C#\Kodlama.ioReCapProject\ReCapProject\WebAPI\obj\Debug\net6.0\WebAPI.pdb
 C:\C#\Kodlama.ioReCapProject\ReCapProject\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
 C:\C#\Kodlama.ioReCapProject\ReCapProject\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll
+C:\C#\Kodlama.ioReCapProject\ReCapProject\WebAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

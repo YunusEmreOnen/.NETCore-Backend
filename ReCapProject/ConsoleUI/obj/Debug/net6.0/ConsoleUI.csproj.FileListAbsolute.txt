@@ -232,3 +232,5 @@ C:\C#\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\obj\Debug\net6.0\refint\Cons
 C:\C#\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.pdb
 C:\C#\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\obj\Debug\net6.0\ConsoleUI.genruntimeconfig.cache
 C:\C#\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\obj\Debug\net6.0\ref\ConsoleUI.dll
+C:\C#\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\bin\Debug\net6.0\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\C#\Kodlama.ioReCapProject\ReCapProject\ConsoleUI\bin\Debug\net6.0\Microsoft.Extensions.Configuration.Binder.dll

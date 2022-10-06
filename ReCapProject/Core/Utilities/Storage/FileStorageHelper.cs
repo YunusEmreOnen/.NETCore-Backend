@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Core.Utilities.Storage
 {
-    public class FileStorage
+    public class FileStorageHelper
     {
 
 

@@ -33,7 +33,7 @@ namespace Business.Concrete
             IResult result = BusinessRules.Run(CheckIfCarImageOfLimitExceed(carId));
             if (result == null)
             {
-                var fileStorageResult = FileStorage.Upload(file, @"C:\C#\Kodlama.ioReCapProject\ReCapProject\WebAPI\Content\Images\");
+                var fileStorageResult = FileStorageHelper.Upload(file, @"C:\C#\Kodlama.ioReCapProject\ReCapProject\WebAPI\Content\Images\");
                 if (fileStorageResult.Success)
                 {
                     CarImage carImage = new CarImage()
@@ -56,7 +56,7 @@ namespace Business.Concrete
 
         public IResult Delete(CarImage carImage)
         {
-            var result = FileStorage.Delete(carImage.ImagePath);
+            var result = FileStorageHelper.Delete(carImage.ImagePath);
             if (result.Success)
             {
                 _carImagedal.Delete(carImage);
@@ -81,7 +81,7 @@ namespace Business.Concrete
             var carImage = _carImagedal.Get(i=>i.ImagePath==imagePath);
             if(carImage!=null)
             {
-                var storageResult = FileStorage.Update(file, imagePath);
+                var storageResult = FileStorageHelper.Update(file, imagePath);
                 
                 carImage.Date_ = storageResult.Data.FileLoadTime;
                 _carImagedal.Update(carImage);
