@@ -1,0 +1,57 @@
+E:\C# and Angular Course\ReCapProject\Entities\bin\Debug\net6.0\Entities.deps.json
+E:\C# and Angular Course\ReCapProject\Entities\bin\Debug\net6.0\Entities.dll
+E:\C# and Angular Course\ReCapProject\Entities\bin\Debug\net6.0\Entities.pdb
+E:\C# and Angular Course\ReCapProject\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+E:\C# and Angular Course\ReCapProject\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\C# and Angular Course\ReCapProject\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+E:\C# and Angular Course\ReCapProject\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+E:\C# and Angular Course\ReCapProject\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+E:\C# and Angular Course\ReCapProject\Entities\obj\Debug\net6.0\Entities.dll
+E:\C# and Angular Course\ReCapProject\Entities\obj\Debug\net6.0\refint\Entities.dll
+E:\C# and Angular Course\ReCapProject\Entities\obj\Debug\net6.0\Entities.pdb
+E:\C# and Angular Course\ReCapProject\Entities\obj\Debug\net6.0\ref\Entities.dll
+E:\Kodlama.ioReCapProject\ReCapProject\Entities\bin\Debug\net6.0\Entities.deps.json
+E:\Kodlama.ioReCapProject\ReCapProject\Entities\bin\Debug\net6.0\Entities.dll
+E:\Kodlama.ioReCapProject\ReCapProject\Entities\bin\Debug\net6.0\Entities.pdb
+E:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+E:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+E:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+E:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+E:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.dll
+E:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\refint\Entities.dll
+E:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.pdb
+E:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\ref\Entities.dll
+E:\Kodlama.ioReCapProject\ReCapProject\Entities\bin\Debug\net6.0\Core.dll
+E:\Kodlama.ioReCapProject\ReCapProject\Entities\bin\Debug\net6.0\Core.pdb
+E:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.csproj.CopyComplete
+D:\Kodlama.ioReCapProject\ReCapProject\Entities\bin\Debug\net6.0\Entities.deps.json
+D:\Kodlama.ioReCapProject\ReCapProject\Entities\bin\Debug\net6.0\Entities.dll
+D:\Kodlama.ioReCapProject\ReCapProject\Entities\bin\Debug\net6.0\Entities.pdb
+D:\Kodlama.ioReCapProject\ReCapProject\Entities\bin\Debug\net6.0\Core.dll
+D:\Kodlama.ioReCapProject\ReCapProject\Entities\bin\Debug\net6.0\Core.pdb
+D:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+D:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+D:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+D:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+D:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.csproj.CopyComplete
+D:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.dll
+D:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\refint\Entities.dll
+D:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.pdb
+D:\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\ref\Entities.dll
+C:\C#\Kodlama.ioReCapProject\ReCapProject\Entities\bin\Debug\net6.0\Entities.deps.json
+C:\C#\Kodlama.ioReCapProject\ReCapProject\Entities\bin\Debug\net6.0\Entities.dll
+C:\C#\Kodlama.ioReCapProject\ReCapProject\Entities\bin\Debug\net6.0\Entities.pdb
+C:\C#\Kodlama.ioReCapProject\ReCapProject\Entities\bin\Debug\net6.0\Core.dll
+C:\C#\Kodlama.ioReCapProject\ReCapProject\Entities\bin\Debug\net6.0\Core.pdb
+C:\C#\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.csproj.AssemblyReference.cache
+C:\C#\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\C#\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.AssemblyInfoInputs.cache
+C:\C#\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.AssemblyInfo.cs
+C:\C#\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.csproj.CoreCompileInputs.cache
+C:\C#\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.csproj.CopyComplete
+C:\C#\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.dll
+C:\C#\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\refint\Entities.dll
+C:\C#\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\Entities.pdb
+C:\C#\Kodlama.ioReCapProject\ReCapProject\Entities\obj\Debug\net6.0\ref\Entities.dll
