@@ -29,7 +29,7 @@ builder.Services.AddControllers();
 
 //builder.Services.AddSingleton<ICarService, CarManager>();
 //builder.Services.AddSingleton<ICarDal, EfCarDal>();
-
+builder.Services.AddCors();
 var tokenOptions = builder.Configuration.GetSection("TokenOptions").Get<TokenOptions>();
 
 
@@ -58,6 +58,7 @@ builder.Services.AddDependencyResolvers(new ICoreModule[]
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+app.UseCors(builder=> builder.WithOrigins("http://localhost:4200").AllowAnyHeader());
 
 app.UseHttpsRedirection();
 

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TsU0GlMxlpCtCCSE7jaP2s5P8kk6w2LclUukhHtehrWxUfCCgNbrirwsSKdudWipX4D9NHdNMiYrRbPoZ2qVyg==",
+  "dgSpecHash": "5JuGRRlrXgEA28lHZM9eoYKiQqKQ0Ed6y9cYSyUT+r5VKy2wRpJP60i21eNXz4XWVLZuZvJ9ArCF0/qKuLFEmw==",
   "success": true,
-  "projectFilePath": "C:\\C#\\Kodlama.ioReCapProject\\ReCapProject\\ConsoleUI\\ConsoleUI.csproj",
+  "projectFilePath": "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\ConsoleUI\\ConsoleUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ynson\\.nuget\\packages\\aspectcore.abstractions\\2.2.0\\aspectcore.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ynson\\.nuget\\packages\\aspectcore.core\\2.2.0\\aspectcore.core.2.2.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7LFQnxBXLAAlw6C4yPyRW07gJWKfNZtjIvYMVGvCn3M0yp+uhKg6PCSIsVC5e9r0vsp3zRoYj9Z9yUZBJHV+Dg==",
+  "dgSpecHash": "mnRIAPFMUuU2wCTEhWI4bD9QqcU8OrHB6lMtuqyFK5+/XmxCZkUIkkZjs4dSKR+dAZlO/+atuL9E5NjlDvUE8A==",
   "success": true,
-  "projectFilePath": "C:\\C#\\Kodlama.ioReCapProject\\ReCapProject\\DataAccess\\DataAccess.csproj",
+  "projectFilePath": "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\DataAccess\\DataAccess.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ynson\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\ynson\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",

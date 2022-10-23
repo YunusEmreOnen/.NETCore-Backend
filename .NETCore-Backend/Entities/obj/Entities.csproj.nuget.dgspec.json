@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\C#\\Kodlama.ioReCapProject\\ReCapProject\\Entities\\Entities.csproj": {}
+    "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\Entities\\Entities.csproj": {}
   },
   "projects": {
-    "C:\\C#\\Kodlama.ioReCapProject\\ReCapProject\\Core\\Core.csproj": {
+    "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\Core\\Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#\\Kodlama.ioReCapProject\\ReCapProject\\Core\\Core.csproj",
+        "projectUniqueName": "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\Core\\Core.csproj",
         "projectName": "Core",
-        "projectPath": "C:\\C#\\Kodlama.ioReCapProject\\ReCapProject\\Core\\Core.csproj",
+        "projectPath": "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\Core\\Core.csproj",
         "packagesPath": "C:\\Users\\ynson\\.nuget\\packages\\",
-        "outputPath": "C:\\C#\\Kodlama.ioReCapProject\\ReCapProject\\Core\\obj\\",
+        "outputPath": "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -98,14 +98,14 @@
         }
       }
     },
-    "C:\\C#\\Kodlama.ioReCapProject\\ReCapProject\\Entities\\Entities.csproj": {
+    "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\Entities\\Entities.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\C#\\Kodlama.ioReCapProject\\ReCapProject\\Entities\\Entities.csproj",
+        "projectUniqueName": "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\Entities\\Entities.csproj",
         "projectName": "Entities",
-        "projectPath": "C:\\C#\\Kodlama.ioReCapProject\\ReCapProject\\Entities\\Entities.csproj",
+        "projectPath": "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\Entities\\Entities.csproj",
         "packagesPath": "C:\\Users\\ynson\\.nuget\\packages\\",
-        "outputPath": "C:\\C#\\Kodlama.ioReCapProject\\ReCapProject\\Entities\\obj\\",
+        "outputPath": "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\Entities\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -127,8 +127,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\C#\\Kodlama.ioReCapProject\\ReCapProject\\Core\\Core.csproj": {
-                "projectPath": "C:\\C#\\Kodlama.ioReCapProject\\ReCapProject\\Core\\Core.csproj"
+              "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\Core\\Core.csproj": {
+                "projectPath": "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\Core\\Core.csproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ncpDuctFOiwfLz0OknOb6Jz7BIA7xywdEnqQzCSDTScWUCc3ORLm9yDgzyV6XUGLFeQrqBnTId8Wdh2xkMCMSA==",
+  "dgSpecHash": "gr7tT4n6fEHkNTacyRJ5ohrthyyf6Nn9m9kBodVU78FPkXeQB0UVVrRk+esfdkYNtB2llKdAUUG/Z36YPqI7/w==",
   "success": true,
-  "projectFilePath": "C:\\C#\\Kodlama.ioReCapProject\\ReCapProject\\Entities\\Entities.csproj",
+  "projectFilePath": "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\Entities\\Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ynson\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\ynson\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",

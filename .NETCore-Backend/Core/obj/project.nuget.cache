@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3QEliYzdFUCaDZnufzMegYcrZBvMMQ31JSbXCwqBX/fcHgKm//T5FTNFaqjd65RwSXsw/k2rtvNY6ZZUG/mOXw==",
+  "dgSpecHash": "XxFG6ptw6WSLFFdEZh97fnjv7/F48Myor2Uj4LIZaAnf7AB56FzWkauLhIawvQ1y0oMfKu+af4Sq0GoXfqz5PQ==",
   "success": true,
-  "projectFilePath": "C:\\C#\\Kodlama.ioReCapProject\\ReCapProject\\Core\\Core.csproj",
+  "projectFilePath": "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\Core\\Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ynson\\.nuget\\packages\\autofac\\6.4.0\\autofac.6.4.0.nupkg.sha512",
     "C:\\Users\\ynson\\.nuget\\packages\\autofac.extensions.dependencyinjection\\8.0.0\\autofac.extensions.dependencyinjection.8.0.0.nupkg.sha512",

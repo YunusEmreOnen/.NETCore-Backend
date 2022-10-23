@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "EUVjA/SEEcY8ZgGob4ZPTQQasQh3uOaqZtC3yHwD/O71iLHclvBT5IWU1VRsYxsISWkOKhHctOYfJfs5cvpp9g==",
+  "dgSpecHash": "6UgZzE7A2c/b6kV0lx4qnYmJnBxPIfHX+R1CS4hI5OlIyPYKd9s7hvkIe5PnNvevDzvTnskXvSGg8ZT2ljnpkQ==",
   "success": true,
-  "projectFilePath": "C:\\C#\\Kodlama.ioReCapProject\\ReCapProject\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ynson\\.nuget\\packages\\aspectcore.abstractions\\2.2.0\\aspectcore.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\ynson\\.nuget\\packages\\aspectcore.core\\2.2.0\\aspectcore.core.2.2.0.nupkg.sha512",
