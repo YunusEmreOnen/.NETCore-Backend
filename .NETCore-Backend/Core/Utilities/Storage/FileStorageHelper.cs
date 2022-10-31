@@ -55,21 +55,21 @@ namespace Core.Utilities.Storage
 
                 string extension = Path.GetExtension(file.FileName);
                 string guid = Guid.NewGuid().ToString();
-                string _filePath = root + guid + extension;
+                string _filePath = guid + extension;
 
                 if (!Directory.Exists(root))
                 {
                     Directory.CreateDirectory(root);
                 }
 
-                using (Stream stream = File.Create(_filePath))
+                using (Stream stream = File.Create(root+_filePath))
                 {
                     file.CopyTo(stream);
                     stream.Flush();
                 }
 
 
-                DateTime _fileLoadTime = File.GetCreationTime(_filePath);
+                DateTime _fileLoadTime = File.GetCreationTime(root+_filePath);
                 FileStorageObject fileStorageObject = new FileStorageObject()
                 {
                     FilePath = _filePath,

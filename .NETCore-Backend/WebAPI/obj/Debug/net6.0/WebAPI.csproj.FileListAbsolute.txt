@@ -210,3 +210,4 @@ C:\C#\Kodlama.ioReCapProject\.NETCore-Backend\WebAPI\obj\Debug\net6.0\refint\Web
 C:\C#\Kodlama.ioReCapProject\.NETCore-Backend\WebAPI\obj\Debug\net6.0\WebAPI.pdb
 C:\C#\Kodlama.ioReCapProject\.NETCore-Backend\WebAPI\obj\Debug\net6.0\WebAPI.genruntimeconfig.cache
 C:\C#\Kodlama.ioReCapProject\.NETCore-Backend\WebAPI\obj\Debug\net6.0\ref\WebAPI.dll
+C:\C#\Kodlama.ioReCapProject\.NETCore-Backend\WebAPI\bin\Debug\net6.0\WebAPI.staticwebassets.runtime.json

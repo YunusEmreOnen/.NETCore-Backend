@@ -14,7 +14,9 @@ using Entities.DTOs;
 using FluentValidation;
 using System;
 using System.Collections.Generic;
+using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -90,6 +92,21 @@ namespace Business.Concrete
             _carDal.Update(car);
 
             return new SuccessResult(Messages.CarUpdate);
+        }
+
+        public IDataResult<List<CarDetailDto>> GetCarDetailsByBrand(int BrandId)
+        {
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(c => c.BrandId == BrandId));
+        }
+
+        public IDataResult<List<CarDetailDto>> GetCarDetailsByColor(int ColorId)
+        {
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(c => c.ColorId == ColorId));
+        }
+
+        public IDataResult<List<CarDetailDto>> GetCarDetailsById(int CarId)
+        {
+            return new SuccessDataResult<List<CarDetailDto>>(_carDal.GetCarDetails(c => c.CarId == CarId));
         }
     }
 }

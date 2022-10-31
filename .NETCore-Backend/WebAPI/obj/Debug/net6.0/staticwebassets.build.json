@@ -1,11 +1,71 @@
 {
   "Version": 1,
-  "Hash": "7/8N/7vR8Gil4oF52j1JyaDaDh/w/bwrwTANJiMV94U=",
+  "Hash": "aCMwed3xg0X+bOGNDtp/4yBUx0cG4KBCU4/SLxMjDvg=",
   "Source": "WebAPI",
   "BasePath": "_content/WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "WebAPI\\wwwroot",
+      "Source": "WebAPI",
+      "ContentRoot": "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\WebAPI\\wwwroot\\Uploads\\Images\\c4a52e42-d3a2-4d5f-ac24-4f5e90562adf.jpg",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "Uploads/Images/c4a52e42-d3a2-4d5f-ac24-4f5e90562adf.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Images\\c4a52e42-d3a2-4d5f-ac24-4f5e90562adf.jpg"
+    },
+    {
+      "Identity": "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\WebAPI\\wwwroot\\Uploads\\Images\\d7180e44-d0a4-4e25-ac2c-aeb64ed075a8.jpg",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "Uploads/Images/d7180e44-d0a4-4e25-ac2c-aeb64ed075a8.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Images\\d7180e44-d0a4-4e25-ac2c-aeb64ed075a8.jpg"
+    },
+    {
+      "Identity": "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\WebAPI\\wwwroot\\Uploads\\Images\\defaultImage.jpeg",
+      "SourceId": "WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\C#\\Kodlama.ioReCapProject\\.NETCore-Backend\\WebAPI\\wwwroot\\",
+      "BasePath": "_content/WebAPI",
+      "RelativePath": "Uploads/Images/defaultImage.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Uploads\\Images\\defaultImage.jpeg"
+    }
+  ]
 }

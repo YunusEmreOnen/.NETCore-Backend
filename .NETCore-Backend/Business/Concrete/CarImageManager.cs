@@ -33,7 +33,7 @@ namespace Business.Concrete
             IResult result = BusinessRules.Run(CheckIfCarImageOfLimitExceed(carId));
             if (result == null)
             {
-                var fileStorageResult = FileStorageHelper.Upload(file, @"C:\C#\Kodlama.ioReCapProject\ReCapProject\WebAPI\Content\Images\");
+                var fileStorageResult = FileStorageHelper.Upload(file, "wwwroot\\Uploads\\Images\\");
                 if (fileStorageResult.Success)
                 {
                     CarImage carImage = new CarImage()
@@ -100,22 +100,27 @@ namespace Business.Concrete
             return new SuccessResult();
         }
 
-        public IDataResult<List<string>> GetCarImagesByCarId(int carId)
+        public IDataResult<List<CarImage>> GetCarImagesByCarId(int carId)
         {
-            List<string> carPaths;
+            
             var result = _carImagedal.GetAll(i => i.CarId == carId);
-            if (result != null)
+            if (result.Count!=0)
             {
-                carPaths = new List<string>();
-                foreach (CarImage carImage in result)
-                {
-                    carPaths.Add(carImage.ImagePath);
-                }
-                return new SuccessDataResult<List<string>>(carPaths);
+                return new SuccessDataResult<List<CarImage>>(result);
             }
-            carPaths = new List<string>();
-            carPaths.Add(@"C:\C#\Kodlama.ioReCapProject\ReCapProject\WebAPI\Content\Images\defaultImage.jpg");
-            return new ErrorDataResult<List<string>>(carPaths, Messages.GetDefaultCarImage);
+            else
+            {
+                List<CarImage> imageList = new List<CarImage>();
+                CarImage carImage=new CarImage()
+                {
+                    CarId = carId,
+                    ImagePath = "defaultImage.jpeg",
+                    Date_ = DateTime.Now
+                };
+                imageList.Add(carImage);
+                return new SuccessDataResult<List<CarImage>>(imageList, Messages.GetDefaultCarImage);
+            }
+          
 
         }
 
